@@ -38,6 +38,8 @@ let lsy = syracuse_list 100;;
 
 print_newline();;
 
+(*j'utilise List une libraire d'Ocaml, ci-dessous List.map permet 
+d'appliquer une fonction aux éléments d'une liste*)
 let each elem = 
 	print_int elem;
 	print_string " ";
