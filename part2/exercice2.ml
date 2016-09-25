@@ -27,10 +27,6 @@ let t = !a;;
 a:=!b;;
 b:=t;;
 
-
-
-
-
 (*
 Problème 
 Le tri par insertion 
@@ -52,3 +48,26 @@ let rec insert elem l = match l with
 let rec sort_insert = function 
 	| [] -> []
 	| h::q -> insert h (sort_insert q) ;;
+
+(*
+Exercice
+
+Inverser une liste en utilisant @ et sans utiliser @
+
+*)
+
+let rec inverse_list l = match l with
+	| [] -> []
+	| h::m -> (inverse_list m)@[h];;
+
+
+let rec inverse_list2 l accu = match l with
+	| [] -> accu 
+	| h::m -> inverse_list2 m (h::accu);;
+
+let inverse_list3 l = 
+	let rec inverse m accu = 
+		match m with
+			| [] -> accu 
+			| h::t -> inverse t (h::accu)
+	in inverse l [] ;; 

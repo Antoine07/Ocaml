@@ -37,5 +37,19 @@ Ecrire une fonction permettant d'insérer un élément dans une liste ordonnée.
  - Exercice 
 Maintenant que l'on sait faire l'insertion d'un élément dans une liste triée, essayez d'implémenter un algorithme permettant de réaliser ce tri.
 
+- Exercice
+Ecrire deux fonctions qui permettent chacune d'inverser une liste d'entier en utilisant @ dans un premier temps puis sans l'utiliser.
+
 ## Problème 
-- Réalisez un programme permettant de calculer le pgcd d'un couple a b 
+- Réalisez un programme permettant de calculer le pgcd d'un couple a b
+
+## rappels de cours
+
+Dans Ocaml c'est la dernière expression qui est retournée dans le "script global"
+let add x y = x + y ;; 
+
+Dans l'exemple ci-dessus c'est x+y qui est retouné dans le script global
+
+Attention par exemple, ci-dessous c'est x qui sera retourné dans le script global:
+let bar x = let y = 5 in x + y; x ;; 
+

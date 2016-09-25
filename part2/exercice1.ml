@@ -1,4 +1,13 @@
 (*
+Exercice
+écrire une fonction qui supprime le premier élément d'une liste triée
+*)
+
+let supp_first_elem l = match l with
+	| [] -> []
+	| a::m -> m ;;
+
+(*
 Problème
 
 Combien y-a-t-il d’occurrences du chiffre 1 dans les nombres de 1 à 999 ? Par exemple le
