@@ -8,7 +8,7 @@
 let rec pw x = function 
 	| n when n < 0 -> failwith "n must be positive integer" (* gestion des exceptions *)
 	| 0 -> 1  (* cas particulier *)					
-	| 1 -> x  (* terminale *)
+	| 1 -> x  (* terminale si n = 1 dès le départ il n'y a pas de récursion mais si n > 1 => terminale *)
 	| n -> x*(pw x (n-1)) ;; (* recursion voir ci-dessous pour comprendre le mécanisme *)
 
 ```
