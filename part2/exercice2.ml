@@ -71,3 +71,18 @@ let inverse_list3 l =
 			| [] -> accu 
 			| h::t -> inverse t (h::accu)
 	in inverse l [] ;; 
+
+(*
+Exercice
+
+Ecrire une fonction qui supprime un élément dans une liste
+
+*)
+
+let rec supp_elem elem  = function 
+	| [] -> []
+	| h::q -> if h = elem then supp_elem elem q else h::(supp_elem elem q);;
+
+let rec supp_elem2 elem l = match l with
+	| [] -> []
+	| h::q -> if h = elem then supp_elem2 elem q else h::(supp_elem2 elem q);;
