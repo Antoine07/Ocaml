@@ -1,7 +1,7 @@
 # Element de cours
 ## La récursion
 
-- Soit la fonction puissance suivante 
+- Soit la fonction récursive puissance suivante:
 
 ```ocaml
 
