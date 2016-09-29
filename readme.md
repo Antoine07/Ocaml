@@ -31,16 +31,13 @@ Réponse: il suffit de rechercher tous les diviseurs q tq q <= sqrt(n) + les div
 ## Problème 
 Le tri par insertion 
 
- - 1 Exercice 
+ - 1 Exercice (ok)
 Ecrire une fonction permettant d'insérer un élément dans une liste ordonnée.
 
- - 2 Exercice 
+ - 2 Exercice (ne pas faire celui-ci)
 Maintenant que l'on sait faire l'insertion d'un élément dans une liste triée, essayez d'implémenter un algorithme permettant de réaliser ce tri.
 
-- 3 Exercice (pour dimanche)
-Ecrire deux fonctions qui permettent chacune d'inverser une liste d'entier en utilisant @ dans un premier temps puis sans utiliser l'opérateur @.
-
-- 4 Exercice (pour dimanche déjà fait)
+- 3 Exercice (ok)
 Ecrire une fonction qui permet de supprimer un entier particulier d'une liste d'entiers. Testez la fonction avec les exemples suivants:
 ``` ocaml
 supp_elem 5 [1;2;3;5;7];;
@@ -48,6 +45,15 @@ supp_elem 5 [1;2;3;5;7;5;5;5];;
 supp_elem 5 [1;2;3];;
 supp_elem 5 [];;
 ```
+- 4 Exercice (pour dimanche)
+Ecrire deux fonctions qui permettent chacune d'inverser une liste d'entier en utilisant @ dans un premier temps puis sans utiliser l'opérateur @.
+
+- 5 Exercice (pour dimanche)
+Ecrire un programme permettant d'afficher tous les diviseurs d'un nombre n entier !=0 donné. 
+
+- 6 Exercice (pour dimanche)
+Reprendre la fonction précédente et retourner cette fois la liste des diviseurs sous forme d'une liste
+
 
 ## Problème (pour dimanche)
 - Réalisez un programme permettant de calculer le pgcd d'un couple a b
