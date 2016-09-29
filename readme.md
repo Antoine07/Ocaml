@@ -66,6 +66,6 @@ let add x y = x + y ;;
 ```
 Attention, si il y a plusieurs expressions e1; e2 ; e3, qui se suivent dans la définition d'une fonction c'est la dernière expression qui sera retournée à l'extérieur de la fonction, par exemple ci-dessous l'expression x sera retournée, pas l'expression x + y juste avant séparée par ; 
 ```ocaml
-let bar x = let y = 5 in x + y; x ;; 
+let bar x = let y = 5 in x + y; x ;; (* x est retourné à l'extérieur de la fonction pas x + y *)
 ```
 
