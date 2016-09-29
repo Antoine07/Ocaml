@@ -64,7 +64,7 @@ Dans Ocaml c'est la dernière expression qui est retournée dans le "script glob
 ```ocaml
 let add x y = x + y ;; 
 ```
-Attention, si il y a plusieurs expressions e1; e2 ; e3 c'est bien la dernière expression qui sera retournée à l'extérieur de la fonction, par exemple ci-dessous l'expression x sera retourné pas l'expression x + y juste avant séparée par ; :
+Attention, si il y a plusieurs expressions e1; e2 ; e3, qui se suivent dans la définition d'une fonction c'est la dernière expression qui sera retournée à l'extérieur de la fonction, par exemple ci-dessous l'expression x sera retournée, pas l'expression x + y juste avant séparée par ; 
 ```ocaml
 let bar x = let y = 5 in x + y; x ;; 
 ```
