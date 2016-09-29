@@ -37,10 +37,10 @@ Ecrire une fonction permettant d'insérer un élément dans une liste ordonnée.
  - 2 Exercice 
 Maintenant que l'on sait faire l'insertion d'un élément dans une liste triée, essayez d'implémenter un algorithme permettant de réaliser ce tri.
 
-- 3 Exercice
+- 3 Exercice (pour dimanche)
 Ecrire deux fonctions qui permettent chacune d'inverser une liste d'entier en utilisant @ dans un premier temps puis sans utiliser l'opérateur @.
 
-- 4 Exercice
+- 4 Exercice (pour dimanche déjà fait)
 Ecrire une fonction qui permet de supprimer un entier particulier d'une liste d'entiers. Testez la fonction avec les exemples suivants:
 ``` ocaml
 supp_elem 5 [1;2;3;5;7];;
@@ -49,7 +49,7 @@ supp_elem 5 [1;2;3];;
 supp_elem 5 [];;
 ```
 
-## Problème 
+## Problème (pour dimanche)
 - Réalisez un programme permettant de calculer le pgcd d'un couple a b
 
 ## rappels de cours
